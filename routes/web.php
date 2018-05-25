@@ -11,7 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-	$env = config('app.name');
-    return $env;
-});
+Route::get('/', 'PagesController@root')->name('root');

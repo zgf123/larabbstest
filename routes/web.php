@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-	$env = getenv('APP_KEY');
+	$env = config('app.name');
     return $env;
 });

@@ -1,3 +1,0 @@
-<?php 
-nishuoge cuizi alalalfds
- ?>
